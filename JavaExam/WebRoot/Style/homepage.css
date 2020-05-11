@@ -1,0 +1,165 @@
+@CHARSET "UTF-8";
+*{
+
+    text-decoration: none;
+    list-style: none;
+}
+#wrap{
+    margin:0px auto;
+    background:#d7fae575;;
+    background-size:100% 100%;
+}
+
+header #title{
+    color: black;
+    font:65px cursive;
+    letter-spacing: 20px;
+    text-shadow: 0px 1px 0px #999,0px 2px 0px #888, 0px 3px 0px #777;
+    font-weight: bold;
+    float:left;
+}
+header a{
+    color:black;
+}
+header a:hover,#banner ul li a:hover,#content #signup a:hover{
+    text-decoration: underline;
+}
+#wrap #banner{
+    margin-top:-16px;
+    background:#206f659c;
+}
+#banner #one{
+    margin:10px;
+    float: left;
+    width:120px;
+
+}
+#banner #one li{
+	width: 80px;
+	height: 40px;
+	margin: 2px;
+	background: #d8d8d8;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+}
+#banner .one_list a{
+    color:white;
+    font-weight: bolder;
+    font-size:18px;
+}
+
+#banner .two{
+	width: 80px;
+	height: 160px;
+	background: #666;
+	display:none;
+}
+#banner .two a{
+    color:white;
+    font-size:16px;
+}
+#wrap #content{
+    width:1333px;
+    height:650px;
+}
+#content #signup{
+    width:30%;
+    float:left;
+}
+#signup p{
+    border-left:2px solid #61ff60;
+    font:22px 楷体;
+    font-weight: bold;
+}
+#signup a{
+    color:gray;
+    font:17px 楷体
+}
+#content #information{
+    float:left;
+    width:40%;
+    font-size:16px;
+}
+#information #transpic{
+    position: relative;
+    margin:10px -50px;
+    width:530px;
+    height:330px;
+    overflow: hidden;
+}
+#transpic img{
+    width:100%;
+    height:100%;
+}
+#transpic ul{
+    position: absolute;
+    top:88%;
+    left:50%;
+    margin-left:30px;
+
+}
+#transpic ul li{
+    width:10px;
+    height:10px;
+    border:1px solid #fff;
+    border-radius:50%;
+    background: gray;
+    float:left;
+    margin-left:15px;
+    cursor:pointer;
+}
+#transpic .active{
+    background: deepskyblue;
+}
+#information p,#hotspot p{
+    border-left:2px solid #61ff60;
+    font:25px 华文宋体;
+    font-weight: bold;
+}
+#information li{
+    margin-left: -30px;
+    list-style: disc inside;
+    color: gray;
+    width:500px;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+#information a,#hotspot a{
+    color:black;
+}
+#information a:hover,#hotspot #date a:hover,#hotspot #tool a:hover{
+    text-decoration: underline;
+}
+#content #hotspot{
+    float:left;
+    width:30%;
+}
+#hotspot #date li{
+    margin-left:-30px;
+
+}
+#hotspot #hot tr td{
+    background: #dddddd;
+    padding:2px;
+}
+#hotspot #hot tr td:hover{
+    background: rgba(37, 255, 44, 0.3);
+}
+#hotspot #tool span{
+    float:left;
+    display:inline-block;
+    margin-left:-30px;
+    width:28px;
+    line-height: 30px;
+    text-align: center;
+    color:white;
+    background:rgba(30, 255, 97, 0.66);
+}
+
+#hotspot #tool li table{
+    padding: 8px;
+}
+
+

@@ -1,0 +1,77 @@
+@CHARSET "UTF-8";
+*{
+	margin:0px;
+	padding:0px;
+    text-decoration:none;
+    list-style: none;
+
+}
+#wrap{
+    width:1333px;
+    height:600px;
+    background:#34b98326;
+    background-size: 100% 100%;
+
+}
+#wrap  #title{
+	padding-top:40px;
+    font:60px "楷体";
+    letter-spacing: 10px;
+    text-shadow: 0px 1px 0px #999,0px 2px 0px #888, 0px 3px 0px #777;
+    font-weight: bold;
+}
+#wrap #login{
+	width:500px;
+	height:300px;
+    padding:100px 450px ;
+    
+}
+#login table{
+    font:20px Serif;
+    margin-bottom:10px;
+}
+#login table img{
+	position: relative;
+	top:16px;
+	 width:100px;
+	 height:40px;
+}
+#login table .inp{
+	margin:10px 0px;
+    width:300px;
+    height:40px;
+    border:none;
+    border-bottom:1px solid #bbc481;
+    font-size:18px;
+    border-radius:5px;
+}
+#login table .inp:focus{
+    outline: none;
+    border-bottom:1px solid #ff851f;
+}
+#login table #reset,#submit{
+    margin:10px 100px 0px 0px;
+    padding: 5px 25px;
+    font-size:16px;
+    background: #61ff60;
+    border:1px solid #61ff60;
+    border-radius: 10px;
+    outline: none;
+    cursor:hand;
+
+}
+#login ul{
+    margin:0px;
+    padding: 0px;
+}
+#login ul li{
+    float:left;
+    margin-right:80px;
+
+}
+#login ul a{
+    color:black;
+}
+#login ul a:hover{
+    color:red;
+}

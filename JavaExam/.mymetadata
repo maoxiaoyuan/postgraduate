@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="PostGraduate"
+  id="myeclipse.1539879796940"
+  context-root="/PostGraduate"
+  j2ee-spec="6.0"
+  archive="PostGraduate.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

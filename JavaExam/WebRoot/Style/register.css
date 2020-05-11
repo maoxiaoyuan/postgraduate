@@ -1,0 +1,45 @@
+*{
+    list-style: none;
+}
+#wrap{
+    margin:0px auto;
+}
+header #title{
+    font-size:50px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    float:left;
+}
+header a{
+    color:black;
+    text-decoration: none;
+}
+header a:hover,#banner ul li a:hover,#signup a:hover{
+    text-decoration: underline;
+}
+#content{
+    margin-left: 400px;
+}
+#content table tr td{
+    padding:5px 5px;
+}
+#content table input,select{
+    height:35px;
+    font-size:16px;
+    border:1px black solid;
+    outline:none;
+    border-radius: 5px;
+}
+#content ul #submit{
+    margin-top:15px;
+    width:200px;
+    height:40px;
+    color:white;
+    outline:none;
+    background:deepskyblue;
+    border:1px blue solid;
+    border-radius: 10px;
+}
+#content ul #submit:hover{
+    background: #5dffeb;
+}
